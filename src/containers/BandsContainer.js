@@ -19,4 +19,4 @@ const mapStateToProps = (state) => {
   return { bands: state.bands }
 }
 
-export default connect(state => { this.state.bands}, dispatch({ type: 'ADD_BAND'}))
+export default connect(state => { this.state.bands}, dispatch({ type: 'ADD_BAND', band}))
